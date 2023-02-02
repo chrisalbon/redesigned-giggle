@@ -32,4 +32,4 @@ if __name__ == "__main__":
     download_dump(DUMP_URL, BZ2_FILE)
 
     # Hacky way to run WikiExtractor
-    os.system('python -m wikiextractor.WikiExtractor enwiki-latest-pages-articles.xml.bz2')
+    os.system('python -m wikiextractor.WikiExtractor --no-templates --json --output "json" enwiki-latest-pages-articles.xml.bz2')
