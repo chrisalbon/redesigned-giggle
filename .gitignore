@@ -127,3 +127,21 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# ignore constants.py
+constants.py
+
+# video files
+*.mp4
+
+#mac files
+.DS_Store
+
+#macos
+.DS_Store?
+
+enwiki-latest-pages-articles.xml
+enwiki-latest-pages-articles.xml.bz2
+/json
+/text
+
